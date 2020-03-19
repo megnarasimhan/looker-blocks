@@ -1,3 +1,3 @@
 constant: connection {
-  value: "wow_bao_txa_us-6907"
+  value: "keboola_block_reviewtrackers_hospitality"
 }
