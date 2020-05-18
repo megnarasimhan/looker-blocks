@@ -21,7 +21,7 @@ view: location {
 
   dimension: location {
     type: string
-    sql: ${TABLE}."LOCATION" ;;
+    sql: ${TABLE}."LOCATION" || ' (' || ${latitude} || ', ' || ${longitude} || ')' ;;
   }
 
   dimension: latitude {
