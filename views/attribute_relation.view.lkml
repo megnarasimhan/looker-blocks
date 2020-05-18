@@ -35,18 +35,23 @@ view: attribute_relation {
     sql: ${TABLE}."SENTIMENT_VALUE" ;;
   }
 
+  dimension: attribute_relation {
+    type: string
+    sql: ${attribute} || ' ' || ${subject} ;;
+  }
+
   measure: attribute_sentiment_value {
     label: "Attribute Sentiment Value"
     type: average
     sql: ${sentiment_value_dimension} ;;
     value_format: "# ##0.0#"
-    drill_fields: [detail*, attribute_sentiment_value]
+    drill_fields: [detail*, attribute_relation, attribute_sentiment_value]
   }
 
   measure: count {
     label: "Relations"
     type: count
-    drill_fields: [detail*, subject, attribute, count]
+    drill_fields: [detail*, attribute_relation]
   }
 
   # ----- Sets of fields for drilling ------
