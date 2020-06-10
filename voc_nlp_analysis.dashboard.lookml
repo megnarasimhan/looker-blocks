@@ -1,5 +1,5 @@
-- dashboard: reviewtrackers_hospitality_nlp_analysis
-  title: ReviewTrackers Hospitality NLP Analysis
+- dashboard: voc__nlp_analysis
+  title: VoC - NLP Analysis
   layout: newspaper
   elements:
   - title: Rating 5
@@ -241,7 +241,7 @@
     height: 2
   - name: ''
     type: text
-    subtitle_text: <font size="5px"><font color="#408ef7"><b>Hospitality Reviews</b></font>
+    subtitle_text: <font size="5px"><font color="#408ef7"><b>Voice of Customer</b></font>
     row: 0
     col: 0
     width: 7

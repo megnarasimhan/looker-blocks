@@ -1,10 +1,10 @@
-- dashboard: reviewtrackers_hospitality_nlp_topic_analysis
-  title: ReviewTrackers Hospitality NLP Topic Analysis
+- dashboard: voc__nlp_topic_analysis
+  title: VoC - NLP Topic Analysis
   layout: newspaper
   elements:
   - name: ''
     type: text
-    subtitle_text: <font size="5px"><font color="#408ef7"><b>Hospitality Reviews</b></font>
+    subtitle_text: <font size="5px"><font color="#408ef7"><b>Voice of Customer</b></font>
     row: 0
     col: 0
     width: 7

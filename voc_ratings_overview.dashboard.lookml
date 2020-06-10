@@ -1,5 +1,5 @@
-- dashboard: reviewtrackers_hospitality_rating_overview
-  title: ReviewTrackers Hospitality Rating Overview
+- dashboard: voc__rating_overview
+  title: VoC - Rating Overview
   layout: newspaper
   elements:
   - title: Average Rating KPI
@@ -237,7 +237,7 @@
   - name: ''
     type: text
     title_text: ''
-    subtitle_text: <font size="5px"><font color="#408ef7"><b>Hospitality Reviews</b></font>
+    subtitle_text: <font size="5px"><font color="#408ef7"><b>Voice of Customer</b></font>
     body_text: ''
     row: 0
     col: 0
